@@ -1,4 +1,4 @@
-# Teatro
+# Anfiteatro
 
 Suponer un sistema de reserva de asientos para un anfiteatro. El teatro cuenta con 10 filas de 10 asientos cada una. Se necesita desarrollar un sistema (sin uso de bases de datos, únicamente manejo de datos de forma lógica) que permita llevar a cabo lo siguiente: 
 1. Cargar el "mapa" de las filas y asientos. Indicando con una "X" los asientos ocupados y con una "L" los asientos libres. Al iniciar el programa, todos los asientos deben estar libres.
