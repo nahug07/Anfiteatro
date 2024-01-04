@@ -8,9 +8,10 @@ public class Anfiteatro {
         char asientos[][] = new char [10][10];
         boolean bandera = false;
         Scanner teclado = new Scanner(System.in);
-        int fila, asiento;
+        int fila = 0, asiento = 0;
         String salida;
         String mostrarMapa;
+        boolean error = true;
         
         for(int f=0; f<10; f++){
             for(int c=0; c<10; c++){
@@ -29,12 +30,24 @@ public class Anfiteatro {
                 dibujarMapa(asientos);
             }
             
-            System.out.println("Ingrese Fila y Asiento a reservar");
-            System.out.print("Fila (entre 0 y 9)");
-            fila = teclado.nextInt();
+            while(error == true){
+                System.out.println("\n Ingrese Fila y Asiento a reservar");
+                System.out.print("Fila (entre 0 y 9)");
+                fila = teclado.nextInt();
             
-            System.out.print("Asiento (entre 0 y 9)");
-            asiento = teclado.nextInt();
+                System.out.print("Asiento (entre 0 y 9)");
+                asiento = teclado.nextInt();
+                
+                if(fila <= 9 && fila >= 0) {
+                    if(asiento <= 9 && asiento >= 0) {
+                        error = false;
+                    } else {
+                        System.out.println("El numero de asiento no es valido");
+                    }
+                } else {
+                    System.out.println("El numero de fila no es valido");
+                }
+            }
             
             if(asientos[fila][asiento]=='L') {
                 asientos[fila][asiento] = 'X';
