@@ -8,3 +8,18 @@ Suponer un sistema de reserva de asientos para un anfiteatro. El teatro cuenta c
 
 
 * Extra: En caso de que un cliente solicite visualizar cuáles son los asientos libres, el sistema debe permitir mostrar de forma gráfica el mapa de asientos. NO UTILIZAR IGU para este caso. Utilizar ÚNICAMENTE lógica y la salida por consola.
+
+
+
+
+
+##
+<br/>
+<h3>DONE</h3>
+<br/>
+
+![image](https://github.com/nahug07/Anfiteatro/assets/81430661/c4f943d0-6702-4597-849b-ef3934b484d3)
+
+![image](https://github.com/nahug07/Anfiteatro/assets/81430661/03303052-4c8a-46de-8446-a940d74e5004)
+
+
